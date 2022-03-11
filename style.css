@@ -19,12 +19,11 @@ body {
   text-decoration: none;
   padding: 1rem;
   color: #555555;
-  font-family: "Inter";
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
 }
-.navbar a:ntd-child(4) {
+.navbar a:nth-child(4) {
   color: #ff3998;
 }
 .header {
@@ -87,56 +86,106 @@ body {
   margin: 5rem;
   background-size: contain;
   margin-bottom: 0rem;
- }
+}
 .grid {
   grid-area: a;
   align-self: center;
   justify-self: center;
-  word-wrap: wrap;
+  /* word-wrap: wrap; */
 }
 .companies {
   margin-left: 5rem;
 }
 .companies img {
-  padding: 3rem;
+  padding-right: 4.7rem;
 }
-.nft{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5rem;
+.nft {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5rem;
 }
-.nftproducts{
-    background-color: #dddddd;
-    border-radius: 20px;
-    margin-right: 3.7rem;
+.nftproducts {
+  background-color: #dddddd;
+  border-radius: 20px;
+  margin-right: 3.7rem;
+  margin-bottom: 3.7rem;
 }
-.nft1{
-    text-align: left;
+.nft1 {
+  text-align: left;
 }
-.nft2{
-    text-align: right;
+.nft2 {
+  text-align: right;
 }
-.nft3{
-    text-align: right;
+.nft3 {
+  text-align: right;
 }
-table{
-    width: 100%;
-    padding: 1rem;
-    }
-.series{
-    color: #FF8139;
-    font-size: 12px;
-    line-height: 12px;
+table {
+  width: 100%;
+  padding: 1rem;
 }
-.bid{
-    color: #777777;
-    font-size: 12px;
-    line-height: 12px;
+.series {
+  color: #ff8139;
+  font-size: 12px;
+  line-height: 12px;
 }
-.articul{
-    color: #777777;
+.bid {
+  color: #777777;
+  font-size: 12px;
+  line-height: 12px;
 }
-td{
-    height: 25px;
-    text-align: center;
+.articul {
+  color: #777777;
+}
+td {
+  height: 25px;
+  vertical-align: center;
+}
+.nfttext {
+  margin: 5rem;
+}
+.header h2 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+}
+.footerimage {
+  width: 30%;
+}
+footer {
+  margin: 5rem;
+}
+.footer,
+.footerbottom {
+  color: #777777;
+}
+.soclogo svg {
+  margin-right: 0.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footerlogo {
+  width: 50%;
+}
+.footerinfo {
+  width: 50%;
+}
+.footertable {
+  text-align: center;
+}
+.footertable th {
+  height: 70px;
+}
+.footertable td {
+  height: 30px;
+}
+.footertable td:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
 }
