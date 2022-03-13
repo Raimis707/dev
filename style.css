@@ -279,8 +279,13 @@ td {
   }
   .footerbottom p {
     margin-left: 2rem;
+    font-size: 1rem;
   }
   .footerbottom p:nth-child(2) {
     display: none;
   }
+  .footertable{
+    font-size: 0.7remrem;
+  }
+
 }
